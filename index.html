@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title></title>
+       <style>
+       *{
+            font-family: 'Roboto', sans-serif;
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 85vh;
+            background-color: #222;
+            color: #eee;
+            flex-direction: column;
+            gap:30px;
+        }
+
+        .search{
+            border-radius: 2em;
+            border:1px solid #333;
+            color:#eee;
+            display: flex;
+            flex-wrap:wrap;
+            align-items: center;
+            width:50%;
+            padding:10px;
+        }
+        
+        .searchicon{
+            width: 5%;
+        }
+
+        .input{
+            width: 80%;
+        }
+        .input > input{
+            width:100%;
+            padding:8px;
+            border:none;
+            outline:none;
+            background-color: transparent;
+            color:#eee
+        }
+       .keyboard{
+            width: 5%;
+       }
+       .camera{
+            width: 5%;
+       }
+       .mircophone{
+            width: 5%;
+       }
+       
+       .navbar{
+        display:flex;
+        justify-content: right;
+        flex-direction: row;
+        gap:20px;
+        padding:10px;
+        background-color: #222;
+        color:#eee;
+        align-items: center;
+        height:10vh;
+       }
+
+       .button{
+            background-color: #8ab4f8;
+            color:#222;
+            padding: 9px 23px;
+            border-radius: 8px;
+        }
+
+        .footer{
+            height:5vh;
+            background-color: #111;
+            color:#eee;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            padding:10px;
+            gap:10px;
+        }
+        .footer > div{
+            width:calc(33.333% - 20px);
+            background-color: #111;
+            color:#eee;
+            display: flex;
+            justify-content: center;
+            gap:20px;
+        }
+       </style>
+    </head>
+     <body>
+        <div class="navbar">
+            <div>Gmail</div>
+            <div>Görseller</div>
+            <div><i class="fa-solid fa-grid-round"></i></div>
+            <div><div class="button">Oturum açın</div></div>
+        </div>
+        <div class="container">
+            <img src="./googlelogo_light_color_272x92dp.png">
+            <div class="search">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="input">
+                    <input type="text">
+                </div>
+                <div class="keyboard">
+                    <i class="fa-solid fa-keyboard"></i>
+                </div>
+                <div class="mircophone">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+                <div class="camera">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <div>Hakkında</div>
+                <div>Reklam</div>
+                <div>İşletme</div>
+                <div>Arama nasıl çalışır?</div>
+            </div>
+            <div>
+                2007'den bu yana karbon nötr
+            </div>
+            <div>
+                <div>Gizlilik</div>
+                <div>Şartlar</div>
+                <div>Ayarlar</div>
+            </div>
+        </div>
+     </body>
+</html>
